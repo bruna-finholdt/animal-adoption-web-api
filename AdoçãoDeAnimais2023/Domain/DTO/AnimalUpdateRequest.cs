@@ -8,8 +8,6 @@ namespace AdoçãoDeAnimais2023.Domain.DTO
         public int? NivelDeFofura { get; set; }
         [Range(1, 5)]
         public int? NivelDeCarinho { get; set; }
-
-        [Required(AllowEmptyStrings = false, ErrorMessage = "Animal não encontrado!")]
         public string EmailParaContato { get; set; }
     }
 }
